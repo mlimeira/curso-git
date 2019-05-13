@@ -1,1 +1,1 @@
-Curso de git do PPGCC da UFAC.
+Curso de git do PPGCC da UFACx.
