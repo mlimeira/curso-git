@@ -7,3 +7,5 @@ Terceiro commit
 Enviando versões usando ssh
 
 Trabalhando no branch master
+
+Aqui vai dar conflito, by Sarah.
