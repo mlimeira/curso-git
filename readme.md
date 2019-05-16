@@ -6,4 +6,4 @@ Testando SSH
 
 Trabalhando no ramo principal
 
-Conflito com v2
+Conflito resolvido
