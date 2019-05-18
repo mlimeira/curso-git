@@ -48,7 +48,7 @@ Contribuição por [Daniel Silva](https://github.com/danielnsilva)
 
 As chaves SSH facilitam a comunicação com o Github, evitando ter que ficar digitando usuário e senha a cada conexão com o repositório remoto. No Windows, é possível criar a chave SSH por meio do Git Bash.
 
-1. Com o [Git](https://git-scm.com/download/win) instalado, abra o Git Bash.
+1. Com o [Git](https://gitforwindows.org/) instalado, abra o Git Bash.
 2. Execute o comando abaixo, subtituindo o e-mail:
 ```$ ssh-keygen -t rsa -b 4096 -C "seu_email@exemplo.com"```
 3. Pressione ENTER para manter o nome e local padrão do arquivo.
