@@ -1,4 +1,4 @@
-Curso de git do PPGCC da UFAC.
+﻿Curso de git do PPGCC da UFAC.
 
 Segundo commit
 
@@ -40,3 +40,5 @@ facilidades consideráveis para o cotidiano de alguém que versiona código, sã
     Copiando e colando commits: git cherry-pick
 
 fim colaboração Thales
+
+> Incluído por Daniel para forçar conflito e merge recursivo.
