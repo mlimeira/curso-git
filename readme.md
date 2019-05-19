@@ -56,3 +56,22 @@ As chaves SSH facilitam a comunicação com o Github, evitando ter que ficar dig
 
 Fonte: https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key
 ***
+
+*****************************Colaboração Bruno Selhorst****************************
+#Fazendo um clone de um repositório existente do Git
+Caso você queira copiar um repositório do Git que já existe o comando será "git clone"
+Sendo assim, para que se faça o clone do Git é necessário que seja utilizado o comando "git clone [url]"
+Ficando o código como abaixo
+
+$ git clone https://github.com/mlimeira/curso-git.git
+
+Sendo assim, esse arquivo cria um diretório chamado curso-git, inicializa um diretório .git dentro dele e obtém do dados do repositório,
+caso queria clonar o repositório em um diretório diferente, é possível especificar esse diretório utilizando a opção abaxo:
+
+$ git clone https://github.com/mlimeira/curso-git.git nomedodiretorio
+
+Este comando mudará o nome do diretório alvo para nomedodiretorio.
+
+Esse texto foi retirado do site https://git-scm.com/book/pt-br/v1/Git-Essencial-Obtendo-um-Reposit%C3%B3rio-Git e foi modificado
+conforme a necessidade.
+***********************************************************************************
