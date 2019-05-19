@@ -75,3 +75,27 @@ Este comando mudará o nome do diretório alvo para nomedodiretorio.
 Esse texto foi retirado do site https://git-scm.com/book/pt-br/v1/Git-Essencial-Obtendo-um-Reposit%C3%B3rio-Git e foi modificado
 conforme a necessidade.
 ***********************************************************************************
+Colaboração Sarah Soares
+
+Explorando o comando de log do Git
+Os registros do Git permitem que você revise e leia um histórico de tudo 
+que acontece em um repositório. O histórico é construído usando 
+git-loguma ferramenta simples com várias opções para exibir o histórico 
+de confirmação.
+O que há no Log?
+Um log do Git é um registro em execução de confirmações. Um log completo 
+possui as seguintes partes:
+
+Um hash de confirmação (soma de verificação de SHA1 40 caracteres do 
+conteúdo de confirmações). Por ser gerado com base no conteúdo de 
+confirmação, ele é exclusivo.
+Metadados do Autor de Confirmação: O nome e endereço de email do autor 
+do commit.
+Metadados da Data de Confirmação: Um registro de data e hora para a hora 
+da confirmação
+Commit title / message: A visão geral do commit conforme escrito na 
+mensagem de commit.
+Os logs do Git podem ser o que você quiser que eles sejam. Git-log 
+oferece dezenas e dezenas de opções, mas vamos começar com o mais 
+simples.
+Fonte: https://mijingo.com/blog/understanding-git-log
