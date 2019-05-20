@@ -99,3 +99,28 @@ Os logs do Git podem ser o que você quiser que eles sejam. Git-log
 oferece dezenas e dezenas de opções, mas vamos começar com o mais 
 simples.
 Fonte: https://mijingo.com/blog/understanding-git-log
+
+Colaboração Marcio Pontes
+
+
+Trabalhando com Remotos
+Para ser capaz de colaborar com qualquer projeto no Git, você precisa 
+saber como gerenciar seus repositórios remotos. Repositórios remotos são 
+versões do seu projeto que estão hospedados na Internet ou em uma rede 
+em algum lugar. Você pode ter vários deles, geralmente cada um é somente 
+leitura ou leitura/escrita pra você. Colaborar com outros envolve 
+gerenciar esses repositórios remotos e fazer o push e pull de dados 
+neles quando você precisa compartilhar trabalho. Gerenciar repositórios 
+remotos inclui saber como adicionar repositório remoto, remover remotos 
+que não são mais válidos, gerenciar vários branches remotos e defini-los 
+como monitorados ou não, e mais. Nesta seção, vamos cobrir essas 
+habilidades de gerenciamento remoto.
+
+Exibindo Seus Remotos
+Para ver quais servidores remotos você configurou, você pode executar o 
+comando git remote. Ele lista o nome de cada remoto que você 
+especificou. Se você tiver clonado seu repositório, você deve pelo menos 
+ver um chamado origin — esse é o nome padrão que o Git dá ao servidor de 
+onde você fez o clone:
+
+$ git clone git://github.com/schacon/ticgit.git
