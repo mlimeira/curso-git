@@ -2,7 +2,8 @@ public class Daniel {
 
 	public static void main(String[] args) {
 
-		System.out.println('Daniel');
+		String nome = "Daniel"
+		System.out.println(nome);
 
 	}
 
