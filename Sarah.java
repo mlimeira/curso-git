@@ -1,3 +1,4 @@
+aff
 public class Sarah{
 	int idade;
 	String nome;
